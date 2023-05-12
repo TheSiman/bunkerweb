@@ -22,6 +22,15 @@
 			"label": "Append request URI",
 			"regex": "^(yes|no)$",
 			"type": "check"
+		},
+		"REDIRECT_TO_RESPONSE_CODE": {
+			"context": "multisite",
+			"default": "301",
+			"help": "The HTTP status code to send with redirect.",
+			"id": "redirect-to",
+			"label": "Redirect status code",
+			"regex": "^.*$",
+			"type": "text"
 		}
 	}
 }
